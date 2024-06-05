@@ -23,7 +23,7 @@ on:
 jobs:
   build:
     name: Build
-    runs-on: ubuntu-latest
+    runs-on: [linux, x64]
     steps:
       - uses: fugerit-org/psychic-actions/maven-build-scan@stable
         with:
